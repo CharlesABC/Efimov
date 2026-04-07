@@ -9,7 +9,6 @@ end
 @everywhere begin
 	using ITensors
 	using ITensorMPS
-	using ITensorGaussianMPS
 	using LinearAlgebra
 	using DataFrames
 	using HDF5
@@ -17,7 +16,6 @@ end
 	using Plots
 	using IterTools
 	using SharedArrays
-	using Optim
 	using LaTeXStrings
 
 	#dmrg() setup 
